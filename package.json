@@ -1,0 +1,27 @@
+{
+  "name": "mysql-binlog-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhamjuyal/mysql-binlog-monitor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubhamjuyal/mysql-binlog-monitor/issues"
+  },
+  "homepage": "https://github.com/shubhamjuyal/mysql-binlog-monitor#readme",
+  "devDependencies": {
+    "eslint": "^9.6.0",
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
