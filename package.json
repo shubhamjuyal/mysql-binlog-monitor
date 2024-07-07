@@ -2,11 +2,11 @@
   "name": "mysql-binlog-monitor",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "server.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node server.ts",
+    "dev": "nodemon server.ts"
   },
   "repository": {
     "type": "git",
@@ -20,8 +20,12 @@
   },
   "homepage": "https://github.com/shubhamjuyal/mysql-binlog-monitor#readme",
   "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.10",
     "eslint": "^9.6.0",
-    "nodemon": "^3.1.4"
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
   },
   "dependencies": {
     "express": "^4.19.2"
