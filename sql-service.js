@@ -3,11 +3,11 @@ const MySQLEvents = require('@rodrigogs/mysql-events');
 
 //connection details
 const connection = createConnection({
-    host: '128.410.103.188',
-    port: 3616,
-    user: 'admin',
-    password: 'password',
-    database: 'database.name',
+    host: 'your-database-host',
+    port: 3306,
+    user: 'your-database-user',
+    password: 'your-database-password',
+    database: 'your-database-name',
 });
 
 //instance for binary-log streaming
